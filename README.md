@@ -1,8 +1,10 @@
 # Linux-essential-notes
 This Repository is documentary of my learning Linux essesntials certification. 
 
-- [Twitter](https://twitter.com/PaulAnsh1)
-- [LinkedIn](https://www.linkedin.com/in/anshpaul)
+## My Linux journey
+
+## - [Twitter](https://twitter.com/PaulAnsh1)
+## - [LinkedIn](https://www.linkedin.com/in/anshpaul)
 
 
 - [ ]  1 > [Day 1](progress/day1.md)
