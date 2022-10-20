@@ -4,7 +4,7 @@ This Repository is documentary of my learning Linux essesntials certification.
 ## My Linux journey
 
 ## - [Twitter](https://twitter.com/PaulAnsh1)
-## - [LinkedIn](https://www.linkedin.com/in/anshpaul)
+- [LinkedIn](https://www.linkedin.com/in/anshpaul)
 
 
 - [ ]  1 > [Day 1](progress/day1.md)
