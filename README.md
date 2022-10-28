@@ -1,41 +1,100 @@
 # Linux-essential-notes
 This Repository is documentary of my learning Linux essesntials certification. 
 
-## My Linux journey
+## Intro to Linux
 
-- [Twitter](https://twitter.com/PaulAnsh1)
-- [LinkedIn](https://www.linkedin.com/in/anshpaul)
+An open source OS based on an older OS called Unix. 
+
+A family of open source unix-like OS, typically packaged into a distribution. eg: ubuntu, debia, etc.
+
+## Open source philosophy
+
+Cocept of making source code availble for public use or modification from its orginial design. 
+Major open source application: Openoffice, firefox, Thunderbird, Chronium, Apache, Sambma, NFS, MY SQL, Post.fx, libreoffice. 
+
+There are different types of software licenese used in the open source:
+  1. GNU (General Public Licenese) 
+  2. Apache License
+  3. MIT
+  4. Unlicense
+
+## Linux Distribution
+
+Each distro consists of:
+  1. Linux Kernel
+  2. Supporting software and libraries
+  3. Configuration files, etc. 
+
+Kernel - A low-level computer program which functions as the bridge between the user and the computer's resources. 
 
 
-- [ ]  1 > [Day 1](progress/day1.md)
-- [ ]  2 > [Day 2](progress/day2.md)
-- [ ]  3 > [Day 3](progress/day3.md)
-- [ ]  4 > [Day 4](progress/day4.md)
-- [ ]  5 > [Day 5](progress/day5.md)
-- [ ]  6 > [Day 6](progress/day6.md)
-- [ ]  7 > [Day 7](progress/day7.md)
-- [ ]  8 > [Day 8](progress/day8.md)
-- [ ]  9 > [Day 9](progress/day9.md)
-- [ ]  10 > [Day 10](progress/day10.md)
+## Command line basics
 
-- [ ]  11 > [Day 11](progress/day11.md)
-- [ ]  12 > [Day 12](progress/day12.md)
-- [ ]  13 > [Day 13](progress/day13.md)
-- [ ]  14 > [Day 14](progress/day14.md)
-- [ ]  15 > [Day 15](progress/day15.md)
-- [ ]  16 > [Day 16](progress/day16.md)
-- [ ]  17 > [Day 17](progress/day17.md)
-- [ ]  18 > [Day 18](progress/day18.md)
-- [ ]  19 > [Day 19](progress/day19.md)
-- [ ]  20 > [Day 20](progress/day20.md)
+Shell - The program oroviding traditional text interface to the linux system. 
 
-- [ ]  21 > [Day 21](progress/day21.md)
-- [ ]  22 > [Day 22](progress/day22.md)
-- [ ]  23 > [Day 23](progress/day23.md)
-- [ ]  24 > [Day 24](progress/day24.md)
-- [ ]  25 > [Day 25](progress/day25.md)
-- [ ]  26 > [Day 26](progress/day26.md)
-- [ ]  27 > [Day 27](progress/day27.md)
-- [ ]  28 > [Day 28](progress/day28.md)
-- [ ]  29 > [Day 29](progress/day29.md)
-- [ ]  30 > [Day30](progress/day30.md)
+Commands: 
+  1. ls ( list)
+      ls -l (permission, Date-time of file)
+  
+  2. Cat ( Display content of file)
+
+  3. echo (echo anything)
+  
+  4. a= hello
+        enter
+          echo $a
+            result= hello
+      
+  5. ls *.txt (for dispalying files ending with .txt)
+    
+  6. -/Documents $echo $Path ( Shows rhe path where cmnds are stored)
+  
+  7. which ls ( which- shows where 'ls' cmd is stored) 
+      /bin/ls (directory path)
+      
+  8. history (provides recent history of cmnds used) 
+  
+  
+  ## Using command line to get help
+  
+  cmnds used: man, man -k, info, whatis, whereis, less for /user/share/doc
+  
+  Commands:
+   1. ls --help ( to get help and info)
+
+   2. man ls ( to read man page(user command summary) about ls)
+       man echo ( to read man page(user command summary) about echo)
+       
+   3. man -k echo ( to see which program have word echo in it)
+   
+   4. Whatis cat ( whatis- descirbes about cat command)
+   
+   5. Whatis ping ( describes about ping cmd)
+   
+   6. whereis man ( whereis- shows where the mannual or binary page is. it shows location of man page on device)
+
+   7. inf man( provides documentation of the page)
+  
+  
+  ## Using Directories and listing files
+  
+  cmnds used: cd, pwd, ls, mv. 
+  
+  Commands:
+   1. pwd ( present working directory)
+    
+   2. cd .. ( '..' takes back to one folder in heirachy) 
+   
+   3. cd ~/Folder1 (' ~ ' takes you firectly to folder no matter the relative path)
+   
+   4. cd /etc (changes directory to the directory specified after the slash /)
+   
+   5. cd ../home/spowers/Folder1/..
+        result- /home/spowers. 
+
+
+
+      
+
+
+
