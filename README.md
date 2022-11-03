@@ -91,6 +91,10 @@ Commands:
    
    5. cd ../home/spowers/Folder1/..
         result- /home/spowers. 
+        
+        
+        
+        
 
 
 
