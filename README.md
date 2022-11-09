@@ -82,18 +82,47 @@ Commands:
   
   Commands:
    1. pwd ( present working directory)
-    
+   
    2. cd .. ( '..' takes back to one folder in heirachy) 
    
    3. cd ~/Folder1 (' ~ ' takes you firectly to folder no matter the relative path)
    
    4. cd /etc (changes directory to the directory specified after the slash /)
    
-   5. cd ../home/spowers/Folder1/..
-        result- /home/spowers. 
+   5. cd ../home/' '/Folder1/..
+        result- /home/' ' 
         
-        
-        
+  Listing:
+  
+  1. ls -l ( provides text files in the present folder)
+  
+  2. ls -R ( Give directory listing in the file)
+  
+  3. ls -a (Displays hidden files)
+  
+  4. ls -la ( give long lisitng of all the files)
+  
+  5. ls file* ( globbing, displays all files starting with file*)
+  
+ ## Creating, moving, and deleting files
+ 
+ cmnds used: touch, rm, mv, cp, mkdir, rmdir. 
+ 
+ Commands:
+ 1. touch ( create empty file, or update timestamp).
+ 
+ 2. rm ( remove file, and folder if used recursively)
+ 
+ 3. mv ( moves files and folders)
+ 
+ 4. cp ( copies files, and folders if used recursively)
+ 
+ 5. mkdir ( makes directory)
+ 
+ 6. rmdir ( remove directory)
+ 
+ 
+   
         
 
 
