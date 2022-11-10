@@ -146,6 +146,31 @@ Commands:
                
 ## Archiving files on the command line. 
 
+  Archiving = tar, zip
+  compression = gzip, bzip2, zip
+  
+  { gzip= compression format, it takes file and compress it. 
+    gunzip= to unzip compressed file. }
+    
+  { bzip2= offers greater compression and mostly used for big files.
+    bunzip2= decompression tool, to decompress files. }
+    
+  { zip= offers archiving anf compression both, it will compress the files in a folder and archive the folder.
+    unzip= to decompress files.}
+    
+  { tar= Tape archive, it will archive folder and then we can gzip it, or bzip it.
+    
+    tar= tar -cf (file.tar.gz)
+         tar -xf (file.tgz)
+         
+    tar + compression
+    tar-cfz (gzip) (file.tar.bz2)
+    tar-cfj (bzip2) (file.tbz) 
+    
+    (cfz= create file gzip, cfj= create file bzip2) }
+    
+   
+
 
                         
  
