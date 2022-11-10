@@ -117,9 +117,37 @@ Commands:
  
  4. cp ( copies files, and folders if used recursively)
  
+     ** eg: cp thing1.txt .. ('..' will copy thing1.txt into above directory in path)
+      
+         ** cp -R thing2 thing3 ( -R= recursively,  It will copy thing2 directory into thing3 dir, [directory cannot be copied if -R is not used.] ) 
+ 
  5. mkdir ( makes directory)
+      
+     ** eg: mv myfolder folder1 (myfolder= folder want to move. folder1= destination)
+            [Now myfolder and folder 1 does not exist. So 'mv' cmd will make these folders ad mv myfolder into folder1]
  
  6. rmdir ( remove directory)
+      
+       ** eg: rmdir thing2 ( if dir is not empty it is going to give error)
+              to avoid error:
+                cd thing2
+                  rm* (remove all)
+                    cd ..
+                      rmdir thing2 (it will del the folder succesfully)
+                      
+               rmdir thing3 (gives error if dir not empty: reason: hidden files)
+                 to avoid error:
+                   cd thing3
+                    ls -a (shows hidden content)
+                      cd ..
+                        rm -rf thing3 ( ** IT DEL RECURSIVELY, AND FORCEFULLY ( CAREFUL ) DIR WILL BE DELTED.)
+                        
+               
+               
+## Archiving files on the command line. 
+
+
+                        
  
  
    
