@@ -169,9 +169,119 @@ Commands:
     
     (cfz= create file gzip, cfj= create file bzip2) }
     
+    Commands:
+    
    
+      zip file.zip thing1
+   
+      zip -R file.zip thing1
+      (-R is used recursively, and cmnd shows the content and compress them as well)
+      
+      rm -rf thing1
+      
+      unzip file.zip
+        (it will create thing1 qnd bring back the archived and compressed fiels into the folder)
+        
+      tar -cf files.tar file2.jpg file3.jpg (-cf= create file, files.tar= file name, file2.jpg file3.jpg= sub files in main file)
+      
+      tar -xf files.tar ( xf=extract files)
+        (bring back the files which were archived)
+        
+      tar -xvf files.tar (v= shows the extracted files)
+        (it will show files for content display)
+        
+      gzip files.tar
+        (compress the tar file into much smaller space and gz is the format)
+        
+      gunzip files.tar.gz
+        (unzip the file to back to its size.)
+        
+      bzip2 file.tar
+        (compress file more than gzip.bz2)
+        
+      bunzip2 files.tar.bz2
+        (unzip back to normal size.)
+        
+      tar -zxvf file.tgz ( file.tgz= file to extract)
+        (compression on command line)
+        
+      tar -jcvf bzipfile.bz2 thing1 
+      
+      
+## Searching and extracting data from files
 
-
+    cmnds used: 
+      
+    less = read a file
+    head/tail= view begining or end of file
+    find= locate file on a syatem
+    grep= search for strings in a file
+    sort= organize text in a file
+    cut= manipulate data by column
+    wc= word count
+    
+    Reg ex= Regular expression
+    
+    ^= beginning of line
+    $= end of line
+    .=any single character 
+    
+    Commands:
+    
+    Cat abcfile.txt
+      shows content of the file
+      
+    less abcfile.txt
+    
+    head -n 2 abcfile.txt ( Head= top of text, -n= num of lines, 2= 2 lines) 
+      (show top 2 lines in file)
+      
+    tail -n 3 abcfile.txt
+      (show last 3 lines in file)
+    
+    find
+      (it provides all the files present in dir)
+    
+    find. -type f (type f= only files)
+      (shows only files in the present directory)
+    
+    find. -type f | grep abc 
+     ( takes result og '-type f' and | pipe will take result and search grep abc. )
+     
+    grep abc abcfile.txt
+      (show abc from file)
+     
+    grep abc*
+     ( show all the things with abc(including files, text )
+   
+    grep aa*
+     ( show files, text starting with 'aa')
+     
+    sort file3.txt
+      (It will sort the content alphabatically)
+     
+    Sort -r file3.txt
+      (Sort recursevily)
+    
+    Sort -R file3.txt
+      (sort file randomly)
+      
+    cut -c2-4 file1.txt 
+     ( cut all the data and give result of '-c2-4' )  ( c= column)
+     
+    cut -d " " -f3 file2.txt | cut -c2 ( d= dilameter, -f2= field)
+      (It will show f3 result and then cut -c2)
+      
+    cut -d " " -f3 file2.txt > newfile.txt
+      (it will store the result in newfile.txt and you can cat the file to see the result)
+      
+    wc file3.txt (gives word count)
+      4 18 84 file3.txt ( 4= LINE, 18= WORD, 84= CHARACTER)
+      
+    wc -w files3.txt
+      only gives word count
+      
+    
                         
  
  
