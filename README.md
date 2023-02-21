@@ -144,7 +144,7 @@ Commands:
                         
                
                
-## Archiving files on the command line. 
+## Archiving files on the command line . 
 
   Archiving = tar, zip
   compression = gzip, bzip2, zip
